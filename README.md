@@ -36,8 +36,8 @@ A modern, responsive landing page template built with HTML5, CSS3, and JavaScrip
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/professional-landing-page.git
-   cd professional-landing-page
+   git clone https://github.com/IIBladeII/landingpage-dev.git
+   cd landingpage-dev
    ```
 
 2. **Open in browser**
@@ -50,16 +50,18 @@ A modern, responsive landing page template built with HTML5, CSS3, and JavaScrip
 
 3. **Customize**
    - Edit `index.html` for content changes
-   - Modify `ld.css` for styling adjustments
-   - Update `ld.js` for functionality enhancements
+   - Modify `css/ld.css` for styling adjustments
+   - Update `js/ld.js` for functionality enhancements
 
 ## 📁 Project Structure
 
 ```
-professional-landing-page/
+landingpage-dev/
 ├── index.html              # Main HTML file
-├── ld.css                 # Stylesheet
-├── ld.js                  # JavaScript functionality
+├── css/
+│   └── ld.css             # Main stylesheet
+├── js/
+│   └── ld.js              # JavaScript functionality
 ├── assets/
 │   ├── images/            # Image assets
 │   │   ├── preview.png
@@ -68,9 +70,13 @@ professional-landing-page/
 │   │   ├── project3.jpg
 │   │   └── client1.jpg
 │   └── icons/             # Icon files
-├── docs/                  # Documentation
-├── LICENSE                # MIT License
-└── README.md             # Project documentation
+├── .git/                  # Git repository
+├── .gitignore            # Git ignore file
+├── .qodo/                # Qodo configuration
+├── CHANGELOG.md          # Change log
+├── CONTRIBUTING.md       # Contributing guidelines
+├── LICENSE               # MIT License
+└── README.md            # Project documentation
 ```
 
 ## 🎨 Customization
@@ -139,7 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Pedro Riccio - [@pedroworkdev](mailto:pedroworkdev@gmail.com)
 
-Project Link: [https://github.com/yourusername/professional-landing-page](https://github.com/yourusername/professional-landing-page)
+Project Link: [https://github.com/IIBladeII/landingpage-dev](https://github.com/IIBladeII/landingpage-dev)
 
 ## 🙏 Acknowledgments
 
